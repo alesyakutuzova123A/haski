@@ -819,7 +819,7 @@ footer ul li a:hover {
 .popup-fade__two:before,
 .popup-fade__four:before,
 .popup-fade__five:before,
-.popup-fade__fsix:before {
+.popup-fade__six:before {
     content: '';
     background: #000;
     position: fixed;
