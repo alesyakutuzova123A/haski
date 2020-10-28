@@ -490,7 +490,7 @@
                             <li><input type="text" placeholder="Ваше имя" required></li>
                             <li><input class="input__tel" type="tel" placeholder="Ваш телефон" required></li>
                         </ul>
-                        <textarea name="text" id="" placeholder="Введите ваше сообщение"></textarea> <br>
+                        <textarea name="text" id="" required placeholder="Введите ваше сообщение"></textarea> <br>
                         <button class="popup-open__five">Отправить</button>
                         <div class="popup-fade__five">
                             <div class="popup__five">
@@ -746,7 +746,7 @@
                 $(document).keydown(function (e) {
                     if (e.keyCode === 27) {
                         e.stopPropagation();
-                        $('.popup-fade, .popup-fade__two').fadeOut();
+                        $('.popup, .popup-fade__two').fadeOut();
                     }
                 });
 
