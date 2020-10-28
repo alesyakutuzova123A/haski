@@ -195,7 +195,7 @@ top: 100px;
 .men {
     position: absolute;
     right: 0;
-    z-index: 100;
+    z-index: 30;
     top: 183px;
 }
 
@@ -770,6 +770,7 @@ footer ul li a:hover {
 .popup-fade,
 .popup-fade__three {
     display: none;
+    z-index:9999999
 }
 
 .popup-fade:before,

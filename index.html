@@ -739,14 +739,14 @@
                 });
 
                 $('.popup-close__two').click(function () {
-                    $(this).parents('.popup, .popup-fade__two').fadeOut();
+                    $(this).parents('.popup, .popup-fade, .popup-fade__two').fadeOut();
                     return false;
                 });
 
                 $(document).keydown(function (e) {
                     if (e.keyCode === 27) {
                         e.stopPropagation();
-                        $('.popup-fade__two').fadeOut();
+                        $('.popup-fade, .popup-fade__two').fadeOut();
                     }
                 });
 
