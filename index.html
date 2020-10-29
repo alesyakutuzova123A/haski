@@ -16,9 +16,13 @@
             <div class="container">
                 <nav id="main">
                     <a href=""><img src="img/logo.png" alt="logo"></a>
+                    
                     <div class="navbar">
+                        <div class="header_burger">
+                        <span></span>
+                    </div>
                         <div id="menu" class="navbar__menu">
-                            <ul>
+                            <ul class="header_list">
                                 <li>
                                     <a href="#main">Гавная</a>
                                 </li>
@@ -126,10 +130,11 @@
     </header>
     <div class="container">
         <div id="transportation" class="transportation">
-            <div class="transportation__text">
+            <div class="transportation__wrap">
+                 <div class="transportation__text">
                 <h2>Грузоперевозки</h2>
                 <p>
-                    Грузотакси “Хаски” профессионально выполнит грузоперевозки <br>
+                    Грузотакси “Хаски” профессионально выполнит грузоперевозки 
                     по Томску. Так же мы предоставляем услугу перевозки по городам России.Оперативно перевезем вашу -
                     квартиру, офис, развезем товары. Быстро, дешево, грамотно организуем процесс доставки.
 
@@ -140,7 +145,22 @@
                     в указанный срок и время. «Газели» легко доставят мебель и вещи на дачу в режиме грузового такси –
                     подача в течение 1 часа, минимальные тарифы.
                 </p>
-                <h3>Как происходит заказ</h3>
+               
+            </div>
+            <div class="transportation__img">
+                <img class="transportation__map" src="img/map.png" alt="map">
+                <img class="transportation__car" src="img/car2.png" alt="car">
+
+                <div class="transportation__card">
+                    <img src="img/geo.svg" alt="geo">
+                    <p>Мы осуществляем <br> грузоперевозки <br>
+                        по всей России</p>
+                </div>
+            </div>
+            </div>
+           
+            <div class="transportation__order">
+                 <h3>Как происходит заказ</h3>
                 <ul>
                     <li>
                         <h4 class="transporation__number">01</h4>
@@ -160,16 +180,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="transportation__img">
-                <img class="transportation__map" src="img/map.png" alt="map">
-                <img class="transportation__car" src="img/car2.png" alt="car">
 
-                <div class="transportation__card">
-                    <img src="img/geo.svg" alt="geo">
-                    <p>Мы осуществляем <br> грузоперевозки <br>
-                        по всей России</p>
-                </div>
-            </div>
+
 
         </div>
     </div>
@@ -482,6 +494,7 @@
                                 </p>
                             </div>
                         </div>
+                        
 
                     </div>
                     <h2 class="title">Вы можете добавить отзыв о нас</h2>
@@ -788,7 +801,7 @@
         <script>
             $(document).ready(function () {
                 $('.header_burger').click(function (event) {
-                    $('.header_burger, .header_menu').toggleClass('active');
+                    $('.header_burger, .navbar__menu').toggleClass('active');
                     $('body').toggleClass('lock');
                 });
             });
