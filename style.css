@@ -1639,6 +1639,12 @@ footer ul li a:hover {
     .footer__adress>ul:nth-child(1) {
         margin-top: 30px;
     }
+    .loaders {
+        display: block;
+        }
+        .loaders img {
+        width: 100%;
+        }
 }
 
 @media screen and (max-width: 479px) {
@@ -2018,7 +2024,7 @@ footer ul li a:hover {
         padding: 20px 21px;
         margin-right: 0px;
         margin-bottom: 20px;
-        width: 87%;
+        width: 90%;
     }
 
     .crossings ul li p {
@@ -2177,4 +2183,10 @@ footer ul li a:hover {
     .footer__adress>ul:nth-child(1) {
         margin-top: 30px;
     }
+    .loaders {
+        display: block;
+        }
+        .loaders img {
+        width: 100%;
+        }
 }
