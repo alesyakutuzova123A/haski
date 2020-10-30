@@ -1054,7 +1054,7 @@ footer ul li a:hover {
 
     .choice__container {
         padding: 60px 0;
-        height: 430px;
+        height: 790px;
     }
 
     .tab h3 {
@@ -1066,8 +1066,14 @@ footer ul li a:hover {
         margin-top: 30px;
     }
 
+    .choice__car {
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        gap: 10px;
+    }
+
     .choice__car img {
-        width: 200px;
+        width: 280px;
     }
 
     style.css .shipping__container {
@@ -1319,7 +1325,9 @@ footer ul li a:hover {
     .navbar__email {
         margin-bottom: 10px;
     }
-
+    .navbar__email {
+        margin-right: 0px;
+        }
     .nav__container {
         height: 190px;
     }
@@ -1335,7 +1343,11 @@ footer ul li a:hover {
     .btn__one {
         display: none;
     }
-
+    .navbar__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .men {
         width: 308px;
         top: 294px;
@@ -1365,7 +1377,9 @@ footer ul li a:hover {
         width: 100%;
         text-align: center;
     }
-
+    .nav__container {
+        height: 240px;
+        }
 
     .wrap h3 {
         font-size: 1.4rem;
@@ -1464,20 +1478,6 @@ footer ul li a:hover {
         margin-bottom: 35px;
     }
 
-    .tab h3 {
-        font-size: 1.4rem;
-    }
-
-    .choice .tab,
-    .choice .tab-title {
-        display: block;
-    }
-
-    .choice__car {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .choice__container {
         height: 1100px;
     }
@@ -1485,16 +1485,6 @@ footer ul li a:hover {
     .choice__car img {
         margin-bottom: 0px;
         width: 100%;
-    }
-
-    .tab-content p {
-        font-size: 1.4rem;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-
-    .choice .tab-content {
-        margin-top: 0px;
     }
 
     h2 {
@@ -1639,12 +1629,63 @@ footer ul li a:hover {
     .footer__adress>ul:nth-child(1) {
         margin-top: 30px;
     }
+
     .loaders {
         display: block;
-        }
-        .loaders img {
+    }
+
+    .loaders img {
         width: 100%;
-        }
+    }
+
+    .tab h3 {
+        font-size: 1.1rem;
+        padding: 22px 5px;
+    }
+
+    .choice .tabs {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        row-gap: 10px;
+        justify-content: center;
+    }
+
+    .choice .tab {
+        width: 10px;
+    }
+
+    .choice__car {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .choice .tab-title {
+        width: 98px;
+        height: 55px;
+    }
+
+    .choice__container {
+        height: 690px;
+    }
+
+    .choice__car img {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .tab-content p {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .choice .tab-content {
+        margin-top: 90px;
+    }
+
+    .tab .tab-new {
+        margin-top: 28px;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -1757,8 +1798,9 @@ footer ul li a:hover {
     }
 
     .navbar__contacts {
-        display: block;
-        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .navbar__phone {
@@ -1770,7 +1812,7 @@ footer ul li a:hover {
     }
 
     .nav__container {
-        height: 190px;
+        height: 200px;
     }
 
     #main>a:nth-child(1) {
@@ -1949,14 +1991,15 @@ footer ul li a:hover {
     }
 
     .tab h3 {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         padding: 22px 5px;
     }
 
     .choice .tabs {
         display: grid;
-        grid-template-columns: repeat(3, 123px);
+        grid-template-columns: repeat(3, 100px);
         row-gap: 10px;
+        justify-content: center;
     }
 
     .choice .tab {
@@ -1969,7 +2012,7 @@ footer ul li a:hover {
     }
 
     .choice .tab-title {
-        width: 120px;
+        width: 98px;
         height: 55px;
     }
 
@@ -2183,10 +2226,16 @@ footer ul li a:hover {
     .footer__adress>ul:nth-child(1) {
         margin-top: 30px;
     }
+
     .loaders {
         display: block;
-        }
-        .loaders img {
+    }
+
+    .loaders img {
         width: 100%;
-        }
+    }
+
+    .tab .tab-new {
+        margin-top: 28px;
+    }
 }
