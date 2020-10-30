@@ -74,12 +74,13 @@ nav {
     font-size: 1.6rem;
     color: #fff;
 }
-
+#main > a:nth-child(1) > img:nth-child(1) {
+    width: 160px;
+    }
 .navbar__contacts {
     display: flex;
     justify-content: end;
 }
-
 .navbar__phone {
     display: flex;
     align-items: center;
@@ -429,7 +430,7 @@ h2 {
 .crossings ul li h6 {
     font-size: 1.6rem;
     color: #166BFF;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .crossings ul li p {
@@ -1303,7 +1304,7 @@ footer ul li a:hover {
     } */
 
     .container {
-        width: 98%;
+        width: 95%;
     }
 
     .navbar__contacts {
@@ -1692,6 +1693,41 @@ footer ul li a:hover {
         .choice__container {
         height: 570px;
         }
+        .wrap h1 {
+            font-size: 3.4rem;
+            padding-top: 30px;
+            margin-bottom: 30px;
+        }
+    
+        .wrap p {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+        }
+        .navbar__phone p {
+            font-size: 1.6rem;
+            }
+            .navbar__email p {
+            font-size: 1.6rem;
+            }
+            .navbar__email {
+            margin-bottom: 15px;
+            }
+            .navbar__phone {
+            margin-bottom: 15px;
+            }
+            .nav__container {
+            height: 250px;
+            }
+            
+            #main > a:nth-child(1) > img:nth-child(1) {
+            margin-bottom: 15px;
+            }
+            .navbar__soc a {
+            margin-right: 15px;
+            }
+            nav a img{
+                width: 40px;
+            }
 }
 
 @media screen and (max-width: 479px) {
@@ -1788,7 +1824,7 @@ footer ul li a:hover {
     }
 
     .container {
-        width: 98%;
+        width: 90%;
     }
 
     .navbar__menu {
@@ -1828,26 +1864,51 @@ footer ul li a:hover {
     .navbar__menu ul {
         display: block;
     }
-
-    .men {
-        top: 294px;
-    }
-
     .main__car {
         top: 280px;
+    } 
+    .main__container {
+    height: 534px;
     }
-
+    .men {
+    top: 283px;
+    width: 218px;
+    }
     .wrap h1 {
         font-size: 3.4rem;
         padding-top: 30px;
         margin-bottom: 30px;
     }
-
+    .btn__two {
+        margin-bottom: 144px;
+        }
+        
     .wrap p {
         font-size: 1.4rem;
         margin-bottom: 30px;
     }
-
+    .navbar__phone p {
+        font-size: 1.6rem;
+        }
+        .navbar__email p {
+        font-size: 1.6rem;
+        }
+        .navbar__email {
+        margin-bottom: 15px;
+        }
+        .navbar__phone {
+        margin-bottom: 15px;
+        }
+        .nav__container {
+        height: 250px;
+        }
+        
+        #main > a:nth-child(1) > img:nth-child(1) {
+        margin-bottom: 15px;
+        }
+        .navbar__soc a {
+        margin-right: 15px;
+        }
     .navbar__phone {
         margin-right: 0px;
     }
@@ -1867,7 +1928,7 @@ footer ul li a:hover {
     }
 
     .btn__two {
-        margin-bottom: 174px;
+        margin-bottom: 144px;
     }
 
     .main__container {
@@ -1902,7 +1963,14 @@ footer ul li a:hover {
     .main__car {
         right: 0;
     }
-
+        .transportation__card {
+        top: 54%;
+        left: 30%;
+        }
+        .transportation__car {
+        width: 60%;
+        top: 60%;
+        }
     .transportation__text {
         margin-right: 0px;
     }
@@ -1912,30 +1980,15 @@ footer ul li a:hover {
     }
 
     .transportation__text p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         width: 100%;
     }
-
-    .transportation__car {
-        width: 50%;
-    }
-
     .transportation__text p {
         margin-bottom: 0px;
     }
 
     .transportation {
         padding: 40px 0 40px 0;
-    }
-
-    .transportation__card {
-        top: 51%;
-        left: 30%;
-
-    }
-
-    .transportation__car {
-        top: 58%;
     }
 
     .transportation__order ul li h5 {
@@ -2062,9 +2115,11 @@ footer ul li a:hover {
     }
 
     .crossings ul {
-        display: block;
-    }
-
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+    
     h2 {
         margin-bottom: 35px;
     }
@@ -2073,7 +2128,10 @@ footer ul li a:hover {
         padding: 20px 21px;
         margin-right: 0px;
         margin-bottom: 20px;
-        width: 90%;
+        width: 80%;
+            display: flex;
+            flex-direction: column;
+            
     }
 
     .crossings ul li p {
@@ -2110,7 +2168,7 @@ footer ul li a:hover {
     }
 
     .movers ul li {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .reviews__slider p {
@@ -2125,9 +2183,6 @@ footer ul li a:hover {
         width: 85%;
     }
 
-    .reviews form textarea {
-        width: 85%;
-    }
 
     .reviews__container {
         padding: 40px 0;
@@ -2140,15 +2195,30 @@ footer ul li a:hover {
     .reviews form ul {
         display: block;
     }
-
+    .reviews form textarea {
+        margin-bottom: 30px;
+        }
     .reviews form input:last-child {
         margin-left: 0px;
     }
-
+    .contacts__text ul li {
+        margin-bottom: 20px;
+        }
+        .form__contact input {
+        width: 85%;
+        }
     .contacts__container {
         padding: 40px 0;
     }
-
+    .contacts__text ul {
+        margin-bottom: 42px;
+        }
+        .form__contact button {
+        margin-bottom: 25px;
+        }
+        .footer__soc {
+        margin-bottom: 30px;
+        }
     .contacts__wrap {
         display: block;
     }
@@ -2169,9 +2239,6 @@ footer ul li a:hover {
         width: 95%;
     }
 
-    .contacts__text ul {
-        margin-bottom: 22px;
-    }
 
     footer {
         display: block;
@@ -2184,9 +2251,6 @@ footer ul li a:hover {
         margin-top: 20px;
     }
 
-    .footer__soc {
-        margin-bottom: 15px;
-    }
 
     .popup__two,
     .popup__four,
@@ -2197,24 +2261,10 @@ footer ul li a:hover {
         left: 44%;
     }
 
-    .navbar__phone p {
-        font-size: 1.2rem;
-    }
-
-    .navbar__email p {
-        font-size: 1.2rem;
-    }
-
     .wrap h1 {
         margin-bottom: 30px;
-        font-size: 2.4rem;
         margin-bottom: 20px;
     }
-
-    .men {
-        width: 208px;
-    }
-
     .main__car {
         width: 300px;
     }
@@ -2244,4 +2294,24 @@ footer ul li a:hover {
     .tab .tab-new {
         margin-top: 28px;
     }
+    nav a img{
+        width: 40px;
+    }
+    .wrap ul {
+        justify-content: center;
+        }
+        .wrap ul li {
+        width: 30;
+        }
+        
+        .wrap > ul:nth-child(4) > li:nth-child(3) {
+        margin-right: 0px;
+        }
+        h2 {
+            text-align: center;
+            }
+            .footer__soc img{
+                width: 40px;
+                margin-right: 15px;
+            }
 }
