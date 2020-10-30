@@ -74,13 +74,16 @@ nav {
     font-size: 1.6rem;
     color: #fff;
 }
-#main > a:nth-child(1) > img:nth-child(1) {
+
+#main>a:nth-child(1)>img:nth-child(1) {
     width: 160px;
-    }
+}
+
 .navbar__contacts {
     display: flex;
     justify-content: end;
 }
+
 .navbar__phone {
     display: flex;
     align-items: center;
@@ -1326,9 +1329,11 @@ footer ul li a:hover {
     .navbar__email {
         margin-bottom: 10px;
     }
+
     .navbar__email {
         margin-right: 0px;
-        }
+    }
+
     .nav__container {
         height: 190px;
     }
@@ -1344,11 +1349,13 @@ footer ul li a:hover {
     .btn__one {
         display: none;
     }
+
     .navbar__contacts {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .men {
         width: 308px;
         top: 294px;
@@ -1378,9 +1385,10 @@ footer ul li a:hover {
         width: 100%;
         text-align: center;
     }
+
     .nav__container {
         height: 240px;
-        }
+    }
 
     .wrap h3 {
         font-size: 1.4rem;
@@ -1684,50 +1692,61 @@ footer ul li a:hover {
     .tab .tab-new {
         margin-top: 28px;
     }
+
     .transportation__text p {
         width: 100%;
-        }
-        .transportation__car {
+    }
+
+    .transportation__car {
         width: 40%;
-        }
-        .choice__container {
+    }
+
+    .choice__container {
         height: 570px;
-        }
-        .wrap h1 {
-            font-size: 3.4rem;
-            padding-top: 30px;
-            margin-bottom: 30px;
-        }
-    
-        .wrap p {
-            font-size: 1.4rem;
-            margin-bottom: 30px;
-        }
-        .navbar__phone p {
-            font-size: 1.6rem;
-            }
-            .navbar__email p {
-            font-size: 1.6rem;
-            }
-            .navbar__email {
-            margin-bottom: 15px;
-            }
-            .navbar__phone {
-            margin-bottom: 15px;
-            }
-            .nav__container {
-            height: 250px;
-            }
-            
-            #main > a:nth-child(1) > img:nth-child(1) {
-            margin-bottom: 15px;
-            }
-            .navbar__soc a {
-            margin-right: 15px;
-            }
-            nav a img{
-                width: 40px;
-            }
+    }
+
+    .wrap h1 {
+        font-size: 3.4rem;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .wrap p {
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+    }
+
+    .navbar__phone p {
+        font-size: 1.6rem;
+    }
+
+    .navbar__email p {
+        font-size: 1.6rem;
+    }
+
+    .navbar__email {
+        margin-bottom: 15px;
+    }
+
+    .navbar__phone {
+        margin-bottom: 15px;
+    }
+
+    .nav__container {
+        height: 250px;
+    }
+
+    #main>a:nth-child(1)>img:nth-child(1) {
+        margin-bottom: 15px;
+    }
+
+    .navbar__soc a {
+        margin-right: 15px;
+    }
+
+    nav a img {
+        width: 40px;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -1864,51 +1883,63 @@ footer ul li a:hover {
     .navbar__menu ul {
         display: block;
     }
+
     .main__car {
         top: 280px;
-    } 
+    }
+
     .main__container {
-    height: 534px;
+        height: 534px;
     }
+
     .men {
-    top: 283px;
-    width: 218px;
+        top: 283px;
+        width: 218px;
     }
+
     .wrap h1 {
         font-size: 3.4rem;
         padding-top: 30px;
         margin-bottom: 30px;
     }
+
     .btn__two {
         margin-bottom: 144px;
-        }
-        
+    }
+
     .wrap p {
         font-size: 1.4rem;
         margin-bottom: 30px;
     }
+
     .navbar__phone p {
         font-size: 1.6rem;
-        }
-        .navbar__email p {
+    }
+
+    .navbar__email p {
         font-size: 1.6rem;
-        }
-        .navbar__email {
+    }
+
+    .navbar__email {
         margin-bottom: 15px;
-        }
-        .navbar__phone {
+    }
+
+    .navbar__phone {
         margin-bottom: 15px;
-        }
-        .nav__container {
+    }
+
+    .nav__container {
         height: 250px;
-        }
-        
-        #main > a:nth-child(1) > img:nth-child(1) {
+    }
+
+    #main>a:nth-child(1)>img:nth-child(1) {
         margin-bottom: 15px;
-        }
-        .navbar__soc a {
+    }
+
+    .navbar__soc a {
         margin-right: 15px;
-        }
+    }
+
     .navbar__phone {
         margin-right: 0px;
     }
@@ -1963,14 +1994,17 @@ footer ul li a:hover {
     .main__car {
         right: 0;
     }
-        .transportation__card {
+
+    .transportation__card {
         top: 54%;
         left: 30%;
-        }
-        .transportation__car {
+    }
+
+    .transportation__car {
         width: 60%;
         top: 60%;
-        }
+    }
+
     .transportation__text {
         margin-right: 0px;
     }
@@ -1983,6 +2017,7 @@ footer ul li a:hover {
         font-size: 1.4rem;
         width: 100%;
     }
+
     .transportation__text p {
         margin-bottom: 0px;
     }
@@ -2115,11 +2150,11 @@ footer ul li a:hover {
     }
 
     .crossings ul {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            }
-    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     h2 {
         margin-bottom: 35px;
     }
@@ -2129,9 +2164,9 @@ footer ul li a:hover {
         margin-right: 0px;
         margin-bottom: 20px;
         width: 80%;
-            display: flex;
-            flex-direction: column;
-            
+        display: flex;
+        flex-direction: column;
+
     }
 
     .crossings ul li p {
@@ -2195,30 +2230,39 @@ footer ul li a:hover {
     .reviews form ul {
         display: block;
     }
+
     .reviews form textarea {
         margin-bottom: 30px;
-        }
+    }
+
     .reviews form input:last-child {
         margin-left: 0px;
     }
+
     .contacts__text ul li {
         margin-bottom: 20px;
-        }
-        .form__contact input {
+    }
+
+    .form__contact input {
         width: 85%;
-        }
+    }
+
     .contacts__container {
         padding: 40px 0;
     }
+
     .contacts__text ul {
         margin-bottom: 42px;
-        }
-        .form__contact button {
+    }
+
+    .form__contact button {
         margin-bottom: 25px;
-        }
-        .footer__soc {
+    }
+
+    .footer__soc {
         margin-bottom: 30px;
-        }
+    }
+
     .contacts__wrap {
         display: block;
     }
@@ -2265,6 +2309,7 @@ footer ul li a:hover {
         margin-bottom: 30px;
         margin-bottom: 20px;
     }
+
     .main__car {
         width: 300px;
     }
@@ -2294,24 +2339,29 @@ footer ul li a:hover {
     .tab .tab-new {
         margin-top: 28px;
     }
-    nav a img{
+
+    nav a img {
         width: 40px;
     }
+
     .wrap ul {
         justify-content: center;
-        }
-        .wrap ul li {
+    }
+
+    .wrap ul li {
         width: 30;
-        }
-        
-        .wrap > ul:nth-child(4) > li:nth-child(3) {
+    }
+
+    .wrap>ul:nth-child(4)>li:nth-child(3) {
         margin-right: 0px;
-        }
-        h2 {
-            text-align: center;
-            }
-            .footer__soc img{
-                width: 40px;
-                margin-right: 15px;
-            }
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .footer__soc img {
+        width: 40px;
+        margin-right: 15px;
+    }
 }
