@@ -1478,9 +1478,6 @@ footer ul li a:hover {
         margin-bottom: 35px;
     }
 
-    .choice__container {
-        height: 1100px;
-    }
 
     .choice__car img {
         margin-bottom: 0px;
@@ -1686,6 +1683,15 @@ footer ul li a:hover {
     .tab .tab-new {
         margin-top: 28px;
     }
+    .transportation__text p {
+        width: 100%;
+        }
+        .transportation__car {
+        width: 40%;
+        }
+        .choice__container {
+        height: 570px;
+        }
 }
 
 @media screen and (max-width: 479px) {
@@ -2017,7 +2023,7 @@ footer ul li a:hover {
     }
 
     .choice__container {
-        height: 690px;
+        height: 590px;
     }
 
     .choice__car img {
